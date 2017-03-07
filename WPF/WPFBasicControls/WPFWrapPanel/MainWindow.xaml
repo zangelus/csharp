@@ -1,0 +1,43 @@
+﻿<Window x:Class="WPFLayoutWthWrapPanel.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFLayoutWthWrapPanel"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <WrapPanel>
+        <Rectangle Fill="Red" Width="30" Height="30"/>
+        <Rectangle Fill="RosyBrown" Width="30" Height="30"/>
+        <Rectangle Fill="Orange" Width="30" Height="30"/>
+        <Rectangle Fill="OrangeRed" Width="30" Height="30"/>
+        <Rectangle Fill="Yellow" Width="30" Height="30"/>
+        <Rectangle Fill="YellowGreen" Width="30" Height="30"/>
+        <Rectangle Fill="Green" Width="30" Height="30"/>
+        <Rectangle Fill="GreenYellow" Width="30" Height="30"/>
+        <Rectangle Fill="Blue" Width="30" Height="30"/>
+        <Rectangle Fill="BlueViolet" Width="30" Height="30"/>
+        <Rectangle Fill="Indigo" Width="30" Height="30"/>
+        <Rectangle Fill="Ivory" Width="30" Height="30"/>
+        <Rectangle Fill="Violet" Width="30" Height="30"/>
+        <Rectangle Fill="Wheat" Width="30" Height="30"/>
+        <Rectangle Fill="Black" Width="30" Height="30"/>
+        <Rectangle Fill="BlanchedAlmond" Width="30" Height="30"/>
+        <Rectangle Fill="Red" Width="30" Height="30"/>
+        <Rectangle Fill="RosyBrown" Width="30" Height="30"/>
+        <Rectangle Fill="Orange" Width="30" Height="30"/>
+        <Rectangle Fill="OrangeRed" Width="30" Height="30"/>
+        <Rectangle Fill="Yellow" Width="30" Height="30"/>
+        <Rectangle Fill="YellowGreen" Width="30" Height="30"/>
+        <Rectangle Fill="Green" Width="30" Height="30"/>
+        <Rectangle Fill="GreenYellow" Width="30" Height="30"/>
+        <Rectangle Fill="Blue" Width="30" Height="30"/>
+        <Rectangle Fill="BlueViolet" Width="30" Height="30"/>
+        <Rectangle Fill="Indigo" Width="30" Height="30"/>
+        <Rectangle Fill="Ivory" Width="30" Height="30"/>
+        <Rectangle Fill="Violet" Width="30" Height="30"/>
+        <Rectangle Fill="Wheat" Width="30" Height="30"/>
+        <Rectangle Fill="Black" Width="30" Height="30"/>
+        <Rectangle Fill="BlanchedAlmond" Width="30" Height="30"/>
+    </WrapPanel>
+</Window>

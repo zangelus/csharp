@@ -1,0 +1,15 @@
+﻿<Window x:Class="WPFCanvas.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFCanvas"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Canvas>
+        <Rectangle Canvas.Top="25" Canvas.Left="25" Width="50" Height="40" Fill="Red"/>
+        <Rectangle Canvas.Top="25" Canvas.Left="100" Width="50" Height="40" Fill="Orange"/>
+        <Rectangle Canvas.Top="40" Canvas.Left="125" Width="50" Height="40" Fill="Blue"/>
+        <Ellipse Canvas.Top="200" Canvas.Left="25" Width="50" Height="50" Fill="Green"/>
+    </Canvas>
+</Window>

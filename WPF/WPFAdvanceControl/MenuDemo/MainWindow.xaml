@@ -1,0 +1,74 @@
+﻿<Window x:Class="MenuDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MenuDemo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <Menu>
+                <MenuItem Header=" File">
+                    <MenuItem Header="New..."></MenuItem>
+                    <MenuItem Header="Open..."></MenuItem>
+                    <Separator></Separator>
+                    <MenuItem Header="Add...">
+                        <MenuItem Header="New Window"></MenuItem>
+                        <MenuItem Header="New Project"></MenuItem>
+                    </MenuItem>
+                    <Separator></Separator>
+                    <MenuItem Header="Save as you go..." IsCheckable="True"></MenuItem>
+                </MenuItem>
+                <MenuItem Header="Edit">
+                    <MenuItem Header="Cut"></MenuItem>
+                    <MenuItem Header="Copy with context menu">
+                        <MenuItem.ContextMenu>
+                            <ContextMenu>
+                                <MenuItem Header="Copy Context...">
+                                    <MenuItem Header="Copy 1"></MenuItem>
+                                    <MenuItem Header="Copy 2"></MenuItem>
+                                </MenuItem>
+                            </ContextMenu>
+                        </MenuItem.ContextMenu>
+                    </MenuItem>
+                    <MenuItem Header="Paste"></MenuItem>
+                </MenuItem>
+            </Menu>
+            <ListBox>
+                <ListBox.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem Header=" File">
+                            <MenuItem Header="New..."></MenuItem>
+                            <MenuItem Header="Open..."></MenuItem>
+                            <Separator></Separator>
+                            <MenuItem Header="Add...">
+                                <MenuItem Header="New Window"></MenuItem>
+                                <MenuItem Header="New Project"></MenuItem>
+                            </MenuItem>
+                            <Separator></Separator>
+                            <MenuItem Header="Save as you go..." IsCheckable="True"></MenuItem>
+                        </MenuItem>
+                        <MenuItem Header="Edit">
+                            <MenuItem Header="Cut"></MenuItem>
+                            <MenuItem Header="Copy with context menu">
+                                <MenuItem.ContextMenu>
+                                    <ContextMenu>
+                                        <MenuItem Header="Copy Context...">
+                                            <MenuItem Header="Copy 1"></MenuItem>
+                                            <MenuItem Header="Copy 2"></MenuItem>
+                                        </MenuItem>
+                                    </ContextMenu>
+                                </MenuItem.ContextMenu>
+                            </MenuItem>
+                            <MenuItem Header="Paste"></MenuItem>
+                        </MenuItem>
+                    </ContextMenu>
+                </ListBox.ContextMenu>
+                <ListBoxItem Content="Item1"></ListBoxItem>
+                <ListBoxItem Content="Item2"></ListBoxItem>
+                <ListBoxItem Content="Item3"></ListBoxItem>
+            </ListBox>
+        </StackPanel>
+    </Grid>
+</Window>
