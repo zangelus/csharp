@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events", "Events\Events.csproj", "{B440F160-6EE3-4D99-AC2F-AEAABDD9F990}"
 EndProject
@@ -160,5 +160,8 @@ Global
 		{DBF49400-7A1F-4C44-9494-4A2DEC786636} = {67FA0109-03AA-4F9B-86C6-43C2D0A77A7E}
 		{D9B70FFD-B9E7-474D-92D4-C41339A10F19} = {67FA0109-03AA-4F9B-86C6-43C2D0A77A7E}
 		{BD4A9FE8-4E17-4546-A13A-3571753A0C51} = {29DD149B-0754-4FCC-9170-149AC4552886}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C659EF92-B75A-4323-A15F-45972968D917}
 	EndGlobalSection
 EndGlobal

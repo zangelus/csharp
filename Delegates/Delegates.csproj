@@ -47,6 +47,9 @@
     <Compile Include="Delegates\DImplementation.cs" />
     <Compile Include="Delegates\DInvoke.cs" />
     <Compile Include="Delegates\TestDelegates.cs" />
+    <Compile Include="Filters.cs" />
+    <Compile Include="Photo.cs" />
+    <Compile Include="PhotoProcessor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
